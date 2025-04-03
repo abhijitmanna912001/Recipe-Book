@@ -1,5 +1,11 @@
+import RecipeApp from "./components/RecipeApp";
+
 const App = () => {
-  return <div>App</div>;
+  return (
+    <div>
+      <RecipeApp />
+    </div>
+  );
 };
 
 export default App;
